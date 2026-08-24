@@ -37,6 +37,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://thesolopreneurstrategist.com/blog.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thesolopreneurstrategist.com/blog-simple-client-pipeline.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://thesolopreneurstrategist.com/privacy.html</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>yearly</changefreq>
