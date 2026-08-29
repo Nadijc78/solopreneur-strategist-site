@@ -212,8 +212,9 @@
   .example-list li{
     position:relative;
     padding-left:22px;
-    margin-bottom:12px;
+    margin-bottom:22px;
     font-size:0.96rem;
+    line-height:1.6;
     color:var(--ink);
   }
   .example-list li::before{
@@ -222,6 +223,9 @@
     left:0;
     color:var(--main);
     font-weight:700;
+  }
+  .example-list li strong{
+    color:var(--main);
   }
   .checklist li{
     display:flex;
@@ -464,14 +468,16 @@ src="https://www.facebook.com/tr?id=1573906934429335&ev=PageView&noscript=1"
         <h2>Something in your business runs on patches and workarounds</h2>
         <p>Maybe your spreadsheet started as something simple and grew into a tangle no one can make sense of. Maybe your Google Drive is a mess of duplicate folders and half-finished files. Maybe there's a process only you understand, and it slows everything down.</p>
         <ul class="example-list">
-          <li>A donor or grant tracker three people update differently, so nobody fully trusts the numbers</li>
-          <li>A volunteer sign-up process that only really lives in someone's inbox</li>
-          <li>A shared Drive with folders named "Final," "Final v2," and "Use This One"</li>
-          <li>A client onboarding process that changes slightly every time because it's never been written down</li>
-          <li>A booking calendar that doesn't talk to your invoicing, so you're doing the math twice</li>
-          <li>A stack of program enrollment paperwork with no way to tell what's missing until it's too late</li>
+          <li><strong>If you're a nonprofit where three different board members update the donor tracker each in their own way,</strong> one shared spreadsheet with locked columns and dropdown-only status fields means everyone enters data the same way, so when a funder or your board asks for a report, you're not spending a day reconciling three versions of the truth first.</li>
+          <li><strong>If your volunteer sign-up process only really lives in one coordinator's inbox,</strong> a shared form that routes new sign-ups straight into a tracked spreadsheet means shifts still get filled the week that coordinator is out sick, instead of waiting until they're back to even see who signed up.</li>
+          <li><strong>If your shared Drive has three folders that could all be "the real one,"</strong> a single source folder with view-only access on everything else means the next person who needs last quarter's report finds it in ten seconds instead of opening all three to compare which one has the actual final numbers.</li>
+          <li><strong>If your client onboarding changes slightly every time because it's never been written down,</strong> a written step-by-step process means a new hire, or you on a rushed Monday, can run it exactly the same way without you having to remember what you did last time.</li>
+          <li><strong>If your booking calendar has no idea what your invoicing is doing,</strong> a connected system that turns a booked appointment into a draft invoice automatically means you stop closing out the month by manually matching a calendar against a spreadsheet to see who actually paid.</li>
+          <li><strong>If you don't find out enrollment paperwork is missing until the day it's due,</strong> a tracker that flags incomplete files as soon as they're submitted means you're calling a parent or client with a week of runway, not a same-day scramble.</li>
+          <li><strong>If you're a solo coach or consultant with client information scattered across email, memory, and a Word doc,</strong> one client record per person, with session history and notes in one place, means you stop spending the first five minutes of every call reconstructing where things left off.</li>
         </ul>
-        <p>Sound familiar? You know it needs to be fixed. You don't have the time, or the technical background, to fix it yourself.</p>
+        </ul>
+        <p>Sound familiar? You know it needs to be fixed, but you don't have the time or the technical background to fix it yourself.</p>
       </div>
       <div>
         <span class="eyebrow">What I do about it</span>

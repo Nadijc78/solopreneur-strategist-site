@@ -3,15 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog | The Solopreneur Strategist</title>
-<meta name="description" content="Practical, plain-language fixes for messy spreadsheets, disorganized systems, and clunky workflows — for solopreneurs, small business owners, and non-profits.">
-<meta property="og:title" content="Blog | The Solopreneur Strategist">
-<meta property="og:description" content="Practical, plain-language fixes for messy spreadsheets, disorganized systems, and clunky workflows — for solopreneurs, small business owners, and non-profits.">
+<title>The Measure of a Good Fix Isn't Whether You Come Back | The Solopreneur Strategist</title>
+<meta name="description" content="Why the best outcome for a client is often that I never hear from them again, and how durability of impact matters more than repeat business.">
+<meta property="og:title" content="The Measure of a Good Fix Isn't Whether You Come Back | The Solopreneur Strategist">
+<meta property="og:description" content="Why the best outcome for a client is often that I never hear from them again, and how durability of impact matters more than repeat business.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234f6568'/%3E%3Ctext x='32' y='44' font-family='Montserrat, Arial, sans-serif' font-size='34' font-weight='800' fill='%23edeced' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+
+<link rel="canonical" href="https://thesolopreneurstrategist.com/blog-durability-of-impact.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Measure of a Good Fix Isn't Whether You Come Back",
+  "description": "Why the best outcome for a client is often that I never hear from them again, and how durability of impact matters more than repeat business.",
+  "author": {
+    "@type": "Person",
+    "name": "Nadia Charles"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Solopreneur Strategist"
+  },
+  "datePublished": "2026-08-29",
+  "mainEntityOfPage": "https://thesolopreneurstrategist.com/blog-durability-of-impact.html"
+}
+</script>
 
 
 <style>
@@ -35,12 +55,7 @@
   .wrap{max-width:var(--max);margin:0 auto;padding:0 24px;}
   h1,h2,h3{font-family:'Montserrat',Arial,sans-serif;font-weight:800;line-height:1.2;margin:32px 0 14px;color:var(--ink);}
   h1{font-size:clamp(1.9rem,4.6vw,2.7rem);letter-spacing:-0.01em;margin-top:0;}
-  h2{font-size:clamp(1.25rem,2.8vw,1.5rem);}
-  h3{font-size:1.1rem;}
   p, li{margin:0 0 16px;font-size:1.02rem;}
-  ul, ol{padding-left:22px;}
-  li{margin-bottom:8px;}
-  code{background:var(--card-bg);padding:2px 6px;border-radius:5px;font-size:0.92em;}
   .eyebrow{display:inline-block;font-size:0.78rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--main);background:rgba(79,101,104,0.10);padding:6px 14px;border-radius:999px;margin-bottom:14px;}
 
   header{background:var(--main);color:var(--on-dark);position:sticky;top:0;z-index:50;}
@@ -61,25 +76,21 @@
   .page-hero h1{max-width:820px;margin:0 auto;}
   .post-meta{color:var(--main);font-size:0.9rem;font-weight:600;margin-bottom:6px;}
 
-  article{max-width:760px;margin:0 auto;}
-  article > p:first-of-type{font-size:1.1rem;}
+  article{max-width:720px;margin:0 auto;}
 
-  .cta-final{text-align:center;background:var(--card-bg);border-radius:24px;padding:48px 24px;margin-top:20px;max-width:760px;margin-left:auto;margin-right:auto;}
+  /* Notable-statement callout: typographic emphasis, not a quotation */
+  .standout{
+    font-size:1.55rem;
+    line-height:1.4;
+    font-weight:700;
+    color:var(--main);
+    text-align:center;
+    max-width:600px;
+    margin:56px auto;
+    letter-spacing:-0.01em;
+  }
 
-  .blog-grid{max-width:820px;margin:32px auto 0;display:flex;flex-direction:column;gap:18px;}
-  .blog-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:28px;display:block;text-decoration:none;color:inherit;}
-  .blog-card:hover{border-color:var(--main);}
-  .blog-card .tag{display:inline-block;font-size:0.72rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:var(--main);background:rgba(79,101,104,0.10);padding:3px 10px;border-radius:6px;margin-bottom:10px;}
-  .blog-card h2{margin:0 0 8px;font-size:1.25rem;}
-  .blog-card p{margin:0;color:#5b6a6c;font-size:0.96rem;}
-  .blog-card .date{font-size:0.82rem;color:var(--main);font-weight:600;margin-top:10px;display:block;}
-
-  .featured-card{background:var(--main);color:var(--on-dark);border-radius:var(--radius);padding:36px;display:block;text-decoration:none;margin-bottom:8px;}
-  .featured-card:hover{opacity:0.95;}
-  .featured-card .tag{display:inline-block;font-size:0.72rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;color:var(--on-dark);background:rgba(237,236,237,0.15);padding:3px 10px;border-radius:6px;margin-bottom:12px;}
-  .featured-card h2{margin:0 0 10px;font-size:1.4rem;color:var(--on-dark);}
-  .featured-card p{margin:0;color:rgba(237,236,237,0.85);font-size:1rem;}
-  .featured-card .read-more{display:inline-block;margin-top:16px;font-weight:700;font-size:0.9rem;color:var(--button);}
+  .cta-final{text-align:center;background:var(--card-bg);border-radius:24px;padding:48px 24px;margin-top:20px;max-width:720px;margin-left:auto;margin-right:auto;}
 
   footer{background:var(--main);color:var(--on-dark);padding:44px 0 26px;margin-top:20px;}
   .footer-grid{display:flex;flex-wrap:wrap;justify-content:space-between;gap:32px;padding-bottom:24px;border-bottom:1px solid rgba(237,236,237,0.2);}
@@ -100,6 +111,9 @@
     nav#primary-nav.open{display:block;}
     nav#primary-nav ul{flex-direction:column;gap:4px;}
     nav#primary-nav ul li a{display:block;padding:12px 4px;}
+  }
+  @media (max-width:600px){
+    .standout{font-size:1.25rem;margin:40px auto;}
   }
   @media (prefers-reduced-motion: reduce){
     .btn, .btn:hover{transition:none;transform:none;}
@@ -134,30 +148,52 @@
 
   <section class="page-hero">
     <div class="wrap">
-      <span class="eyebrow">Blog</span>
-      <h1>Practical fixes for messy systems</h1>
-      <p style="max-width:600px;margin:0 auto;color:var(--main);">How-to's, honest opinions, and the occasional "here's what I'd do differently."</p>
+      <span class="eyebrow">Opinion</span>
+      <h1>The Measure of a Good Fix Isn't Whether You Come Back</h1>
+      <p class="post-meta">Published August 29, 2026 &middot; 4 minute read</p>
     </div>
   </section>
 
   <section style="padding-top:0;">
     <div class="wrap">
-      <div class="blog-grid">
+      <article>
+        <p>The best possible outcome for a client is often that I never hear from them again.</p>
 
-        <a class="featured-card" href="blog-durability-of-impact.html">
-          <span class="tag">Start here</span>
-          <h2>The Measure of a Good Fix Isn't Whether You Come Back</h2>
-          <p>The best outcome for a client is often that I never hear from them again, and why that's the whole point.</p>
-          <span class="read-more">Read the philosophy behind everything I build &rarr;</span>
-        </a>
+        <p>Not because they were unhappy with the work, but because the work did what it was supposed to do. No follow-up needed, no maintenance plan required, no monthly check-ins. Just an operational headache that used to cost time or money, and now doesn't.</p>
 
-        <a class="blog-card" href="blog-simple-client-pipeline.html">
-          <span class="tag">How-to</span>
-          <h2>You Don't Need a CRM, You Need Three Columns and a Plan</h2>
-          <p>Skip the $50-a-month platform. Build a simple client pipeline in a spreadsheet you already have, with three structure rules and a 10-minute setup.</p>
-          <span class="date">August 24, 2026</span>
-        </a>
+        <p>It may seem counterintuitive given that my business depends on being hired, but I don't think a business built on constant hand-holding is a good way to measure genuine impact.</p>
 
+        <p class="standout">There are two distinct types of value you can build into a business.</p>
+
+        <p>The first depends entirely on a continuous relationship.</p>
+
+        <p>If your business relies on a high-touch consultant whose strategy only works while they're actively running your weekly meetings, you haven't actually fixed your operations. You've just hired an expensive co-pilot. A resilient system means your team knows how to execute, pivot, and problem-solve on a random Tuesday when that consultant is unreachable, because the way you operate lives in your daily workflows, not in someone else's head.</p>
+
+        <p>If your entire workflow depends on a bloated software subscription that locks you out of your own data and stops doing anything useful the moment you cancel, you're renting your efficiency instead of owning it. A clean, custom-built system using tools you actually control means your automation keeps running and your records stay accessible, with no risk of a price hike or a lapsed credit card shutting down part of your business.</p>
+
+        <p>The second type of value compounds on its own because it is built to absorb stress, not create it. It means you pay for the solution once, and it keeps paying you back long after I'm out of the picture.</p>
+
+        <p>If you're a financial coach managing 400 clients out of a single Word document, a centralized database with automated logging means you don't need a consultant on retainer just to keep the wheels turning. The system just works. Every time you log a session or look up a client randomly two years from now, it's already doing the work, no payment required.</p>
+
+        <p>If you run a youth program that used to struggle with compliance tracking, a real, customized tracking system means you don't need an operations expert on standby to make sure your data is straight. The system handles it automatically, season after season, long after I've delivered it.</p>
+
+        <p>I hold my own work to a simple test. If I disappeared entirely tomorrow, would this still be working? If the answer is no, I haven't actually relieved your stress. I've just packaged it into a recurring fee.</p>
+
+        <p>None of this means ongoing relationships are bad. Some of my clients do transition into my ongoing support packages because they want the peace of mind, and I love working with them. But the strength of a fix shouldn't be measured by whether a client hired me again. It should be measured by the fact that they didn't have to.</p>
+
+        <p class="standout">Why I think this is the more honest way to build trust</p>
+
+        <p>You may have been burned by a tool or a consultant that only kept working as long as the checks did. That experience makes people cautious, understandably, about hiring anyone for anything. Instead, they choose to just live with the growing pains.</p>
+
+        <p>I'd rather earn trust by being straightforward that the goal is for you not to need me for this particular problem ever again, because if the work is good, it doesn't need a subscription to keep proving its worth.</p>
+
+        <p>The measure of a good fix isn't whether you come back. It's whether you don't have to. If you do come back, and I welcome it, it's because something new came up, not because the old fix broke down.</p>
+      </article>
+
+      <div class="cta-final">
+        <h2 style="margin-top:0;">Have something that needs untangling?</h2>
+        <p>Tell me what's going on and I'll follow up with next steps.</p>
+        <a class="btn" href="contact.html">Start here</a>
       </div>
     </div>
   </section>
